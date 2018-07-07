@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+body{
+    margin: 0;
+}
+#slider{
+    width: 900px;
+}
+.slider{
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+}
+.slider>ul{
+    margin: 0;
+    overflow: hidden;
+}
+.slider>ul>li{
+    margin: 0;
+    float: left;
+    list-style: none;
+}
+.slider>ul>li>img{
+    width: 900px;
+    margin: 0;
+    height: 500px;
+    padding: 0;
+}
+.sliderButton>div{
+    cursor: pointer;
+    float: left;
+    font-size: 30px;
+    border:2px solid purple;
+    margin-left: 30px;
+    font-weight: bold;
+    padding: 5px
+}
